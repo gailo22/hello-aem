@@ -1,0 +1,9 @@
+.vagrant/
+*.classpath
+*.project
+*.vlt
+.settings/
+*.bscp
+.idea/
+*.iml
+target/
