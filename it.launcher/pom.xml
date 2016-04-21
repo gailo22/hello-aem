@@ -29,8 +29,8 @@
     <!-- ====================================================================== -->
     <artifactId>hello-aem.it.launcher</artifactId>
     <packaging>jar</packaging>
-    <name>hello-aem - Integration Tests Launcher</name>
-    <description>Integration Tests Launcher for hello-aem</description>
+    <name>Hello AEM Project - Integration Tests Launcher</name>
+    <description>Integration Tests Launcher for Hello AEM Project</description>
 
     <!-- <scm>
         <connection></connection>

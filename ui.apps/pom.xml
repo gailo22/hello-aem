@@ -32,8 +32,8 @@
     <!-- ====================================================================== -->
     <artifactId>hello-aem.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>hello-aem - UI apps</name>
-    <description>UI apps package for hello-aem</description>
+    <name>Hello AEM Project - UI apps</name>
+    <description>UI apps package for Hello AEM Project</description>
 
     <!-- <scm>
         <connection></connection>
@@ -118,12 +118,12 @@
                     <filterSource>${basedir}/META-INF/vault/filter.xml</filterSource>
                     <verbose>true</verbose>
                     <failOnError>true</failOnError>
-                    <group>hello-aem</group>
+                    <group>helloaem</group>
                     <embeddeds>
                         <embedded>
                             <groupId>com.gailo22</groupId>
                             <artifactId>hello-aem.core</artifactId>
-                            <target>/apps//apps/install</target>
+                            <target>/apps/hello-aem/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -157,6 +157,7 @@
                             <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
                             <failOnError>true</failOnError>
                             <failOnMissingEmbed>true</failOnMissingEmbed>
+                            <useProxy>false</useProxy>
                         </configuration>
                      </plugin>
                  </plugins>
@@ -184,6 +185,7 @@
                             <targetURL>http://${aem.publish.host}:${aem.publish.port}/crx/packmgr/service.jsp</targetURL>
                             <failOnError>true</failOnError>
                             <failOnMissingEmbed>true</failOnMissingEmbed>
+                            <useProxy>false</useProxy>
                         </configuration>
                      </plugin>
                  </plugins>

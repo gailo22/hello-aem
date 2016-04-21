@@ -3,7 +3,7 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="hello-aem">
+        jcr:title="Hello AEM Site">
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>

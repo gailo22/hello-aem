@@ -32,8 +32,8 @@
     <!-- ====================================================================== -->
     <artifactId>hello-aem.it.tests</artifactId>
     <packaging>bundle</packaging>
-    <name>hello-aem - Integration Tests Bundles</name>
-    <description>Bundles for Integration Tests for hello-aem</description>
+    <name>Hello AEM Project - Integration Tests Bundles</name>
+    <description>Bundles for Integration Tests for Hello AEM Project</description>
 
     <!-- <scm>
         <connection></connection>
