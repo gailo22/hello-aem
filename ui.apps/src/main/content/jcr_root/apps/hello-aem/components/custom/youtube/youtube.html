@@ -1,0 +1,8 @@
+<div style="overflow: hidden;">
+    <div data-sly-test="${properties.embedCode}">
+	    ${properties.embedCode @ context='unsafe'}
+    </div>
+    <div data-sly-test="${!properties.embedCode}">
+	    Insert Youtube Video here!
+    </div>
+</div>
