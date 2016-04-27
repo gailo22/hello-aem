@@ -1,0 +1,5 @@
+#base=bootstrap/js
+
+
+jquery.min.js
+bootstrap.min.js

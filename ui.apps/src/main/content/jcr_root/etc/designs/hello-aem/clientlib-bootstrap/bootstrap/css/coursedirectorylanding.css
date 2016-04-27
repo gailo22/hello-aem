@@ -1,0 +1,63 @@
+.tagLablestyle span {
+	font-size: 13px;
+}
+
+.tagLablestyle a {
+	text-decoration: none !important;
+}
+
+button.pageButtons{
+	height: 35px;
+	width: 35px;
+	font-size:14px
+}
+
+button.viewButton{
+	height: 35px;
+	width: 80px;
+	font-size: 13px;
+	
+}
+
+div.courseDivtitle{
+    background-color: whitesmoke;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-left: -4px;
+    margin-right: -4px;
+    margin-top: -5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+div.title{
+	font-weight: bold;
+	font-size:14px;
+}
+
+div.courseDivBottom{
+    background-color: #666666;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    height: 40px;
+   margin-bottom: -4px;
+    margin-left: -4px;
+    margin-right: -4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+
+span.subsidyContent{
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+}
+
+div.hiddenDiv{
+	display: none;
+}

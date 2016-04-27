@@ -1,13 +1,31 @@
-<div class="page__main" data-sly-use.main="main.js">
-    <header class="page__header">
-        <div class="page__logo" data-sly-resource="logo"></div>
-        <nav class="page__topnav" data-sly-resource="topnav"></nav>
-    </header>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project Name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="/content/hello-aem/en/BootstrapTesting.html">Testing</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/content/hello-aem/en/appointment.html">Appointment</a></li>
+                <li><a href="/content/hello-aem/en/login.html">Login</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-    <div class="page__title" data-sly-resource="${'title' @ decorationTagName='div'}"></div>
-    <div class="page__par" data-sly-resource="par"></div>
-
-    <footer class="page__footer">
-        <p class="page__copyright">${"&copy; {0} Portal Management Site. All rights reserved." @ i18n, format=main.year, context='html'}</p>
-    </footer>
-</div>
+    <div class="container theme-showcase" role="main">
+        <div class="mainpar" data-sly-resource="par"></div>
+    </div>

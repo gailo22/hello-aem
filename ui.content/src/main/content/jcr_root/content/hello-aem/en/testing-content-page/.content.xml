@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-04-22T02:32:02.919Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/hello-aem/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Testing Content Page"
+        sling:resourceType="hello-aem/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="hello-aem/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="hello-aem/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="hello-aem/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/content/text"
+                text="&lt;p>This is a content page&lt;/p>"
+                textIsRich="true"/>
+            <title
+                jcr:created="{Date}2016-04-22T02:20:16.031Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-22T02:32:02.918Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Test Content Page Title"
+                sling:resourceType="hello-aem/components/content/title"
+                type="h2"/>
+            <text_0
+                jcr:created="{Date}2016-04-22T02:17:59.482Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-22T02:19:52.008Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/content/text"
+                text="&lt;p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <youtube_0
+                jcr:created="{Date}2016-04-22T02:30:22.565Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-22T02:30:51.595Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/custom/youtube"
+                embedUrl="&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/jAu3SwSqKh8&quot; frameborder=&quot;0&quot; allowfullscreen>&lt;/iframe>"/>
+        </par>
+    </jcr:content>
+</jcr:root>

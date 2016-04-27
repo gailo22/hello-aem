@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-04-25T09:36:38.436Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/hello-aem/templates/page-content-custom"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bootstrap Starter Page"
+        sling:resourceType="hello-aem/components/custom/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="hello-aem/components/custom/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="hello-aem/components/custom/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="hello-aem/components/custom/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/custom/content/text"
+                text="&lt;p>This is a content page (custom)&lt;/p>"
+                textIsRich="true"/>
+            <title
+                jcr:created="{Date}2016-04-25T09:31:30.274Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-25T09:31:30.274Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="portal/components/title"/>
+            <youtube
+                jcr:created="{Date}2016-04-25T09:32:02.565Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-25T09:32:54.629Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/custom/youtube"
+                embedCode="&lt;iframe width=&quot;854&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/7gut1JrOzOM&quot; frameborder=&quot;0&quot; allowfullscreen>&lt;/iframe>"/>
+            <colctrl
+                jcr:created="{Date}2016-04-25T09:33:41.890Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-25T09:35:50.696Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/content/colctrl"
+                layout="2;cq-colctrl-lt0"/>
+            <textimage
+                jcr:created="{Date}2016-04-25T09:36:25.294Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2016-04-25T09:36:38.431Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/content/textimage"
+                text="&lt;p>You may download and install the above feature pack from Package Share and replicate to the publish server. If you do use the feature pack offering this packport, please refer to the&amp;nbsp;&lt;a href=&quot;https://docs.adobe.com/docs/en/aem/6-0/develop/sightly.html&quot;>6.1 version of the Sightly documentation&lt;/a>.&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true">
+                <image
+                    jcr:lastModified="{Date}2016-04-25T09:36:38.431Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/projects/gov/cover"
+                    imageRotate="0"/>
+            </textimage>
+            <col_break14615768307590
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/content/colctrl"
+                controlType="break"/>
+            <col_end14615768218940
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="hello-aem/components/content/colctrl"
+                controlType="end"/>
+        </par>
+    </jcr:content>
+</jcr:root>
